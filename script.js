@@ -7,9 +7,18 @@ function createRow(){
     mainGrid.appendChild(newDiv);
 }
 
-// createRow()
-
-
 for(let i = 1; i <= 16; i++){
     createRow();
 }
+
+function createSquare(parentDiv){
+    for(let i = 1; i <= 16; i++){
+        let newSquare = document.createElement("div");
+        newSquare.classList.add("squares");
+
+        parentDiv.appendChild(newSquare);
+    }
+}
+
+const rowList = Array.from(document.querySelectorAll(".rowFlex"));
+rowList.forEach(parentDiv => createSquare(parentDiv));

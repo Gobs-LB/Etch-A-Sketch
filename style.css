@@ -1,19 +1,27 @@
 #mainBox{
     display: flex;
+    flex: 1;
     flex-direction: column;
+    justify-content: stretch;
+    align-content: stretch;
+    height: 100%;
 }
 
 .rowFlex{
     display: flex;
+    flex: 1;
     flex-direction: row;
-    flex-basis: auto;
     flex-grow: 1;
+    justify-content: stretch;
+    align-content: stretch;
 }
 
 .squares{
-    display: flex;
-    flex-basis: auto;
+    flex: 1;
     flex-grow: 1;
-    min-width: 5px;
-    min-height: 5px;
+    min-width: 10px;
+    min-height: 10px;
+    margin: 1px;
+    color: brown;
+    background-color: brown;
 }
