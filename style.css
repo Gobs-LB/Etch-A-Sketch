@@ -1,0 +1,19 @@
+#mainBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.rowFlex{
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.squares{
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    min-width: 5px;
+    min-height: 5px;
+}
