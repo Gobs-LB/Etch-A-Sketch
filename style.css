@@ -1,10 +1,25 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+}
+
+
 #mainBox{
     display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: stretch;
     align-content: stretch;
-    height: 100%;
+    height: 100vh;
+    max-height: 100%;
+    width: 100vh;
+    max-width: 100%h;
+    border: 1px;
+    border-color: black;
 }
 
 .rowFlex{
@@ -14,13 +29,14 @@
     flex-grow: 1;
     justify-content: stretch;
     align-content: stretch;
+    min-height: 10px;
 }
 
 .squares{
     flex: 1;
     flex-grow: 1;
-    min-width: 10px;
-    min-height: 10px;
+    min-width: 1px;
+    min-height: 1px;
     margin: 1px;
     color: brown;
     background-color: brown;
