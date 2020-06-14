@@ -8,6 +8,17 @@ body{
     background-color: burlywood;
 }
 
+#buttonList{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+button{
+    margin: 1px;
+}
 
 #mainBox{
     display: flex;
