@@ -5,6 +5,7 @@ html{
 body{
     height: 100%;
     margin: 0px;
+    background-color: burlywood;
 }
 
 
@@ -40,6 +41,11 @@ body{
     min-width: 1px;
     min-height: 1px;
     margin: 1px;
-    color: brown;
-    background-color: brown;
+    color: white;
+    background-color: white;
+}
+
+.blacked{
+    color: black;
+    background-color: black;
 }

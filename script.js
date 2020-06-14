@@ -22,3 +22,9 @@ function createSquare(parentDiv){
 
 const rowList = Array.from(document.querySelectorAll(".rowFlex"));
 rowList.forEach(parentDiv => createSquare(parentDiv));
+
+const squareList = Array.from(document.querySelectorAll(".squares"));
+squareList.forEach(square => square.addEventListener("mouseover", function(){
+    square.classList.add("blacked")
+    }
+));
